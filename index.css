@@ -1,0 +1,15 @@
+body
+  display: flex
+  align-items: center
+  height: 100vh
+  
+div
+  margin: auto
+  width: 250px
+  
+svg
+  stroke: url(#LIN)
+  fill: none
+
+svg path:not(#facebook)
+  display: none
